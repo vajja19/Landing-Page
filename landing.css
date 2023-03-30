@@ -1,0 +1,115 @@
+body{
+    background-color: #1f2937;
+    color: white;
+    margin-left: 2.5rem;
+    max-width: 900px;
+    min-width: 700px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+header{
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2% 2% 2%;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    gap:2rem;
+}
+.logo{
+    position: relative;
+}
+.logoimg{
+    height: 6rem;
+}
+.info{
+    display: block;
+    display: flex;
+    padding-left: 1rem;
+    margin-left: 4rem;
+    justify-content:center;
+    gap: 8rem;
+    margin-bottom: 2rem;
+    font-family: 'Lacquer', cursive;
+    
+}
+.info-image{
+    border-radius: 15%;
+}
+.section-1{
+    width: 75rem;
+    padding-top: 3rem;
+   background-color: white;
+   color:black;
+   display: flex;
+   font-family: 'Lacquer', cursive;
+   margin: auto;
+   justify-content: center;
+   justify-content: space-evenly;
+   font-size: 2rem;
+}
+.art,.sport,.music{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+}
+.pic:hover{
+    transform: scale(1.1);
+    z-index: 0.5;
+}
+.section-2{
+    display: flex;
+    width: 75rem;
+    margin: auto;
+    padding: 4rem 2rem 4rem 4rem;
+    background-color: rgb(24, 104, 183);
+    font-family: 'Lacquer', cursive;
+    justify-content:center;
+    gap: 7rem;
+}
+.login-logo{
+    display: flex;
+    margin-top: 1rem;
+    gap:1.5rem;
+}
+.community-info{
+    padding :2rem;
+    font-family: 'Lacquer', cursive;
+}
+footer{
+    width:70rem;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@media (max-width:450px)
+{
+    header{
+        width: 50rem;
+    }
+    .info{
+        padding-left: 9rem;
+        margin-left: 4rem;
+    }
+    img{
+        height: 14rem;
+    }
+    .section-1,.section-2{
+        width: 60rem;
+    }
+    footer{
+        width: 63rem;
+    }
+    .logoimg
+    {
+        height: 4rem;
+    }
+}
